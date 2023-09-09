@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: "Mulish";
+  font-size: 62.5%;
+}
+
+body {
+  background: #121214;
+  padding:7.4rem 10.4rem ;
+  display: grid;
+  justify-content: center;
+}
+
+header h1 {
+  color: #02799D;
+  font-size:5.6rem;
+  font-weight: 900;
+  font-weight: 7.2rem;
+}
+
+header p {
+  color: #E1E1E6;
+  font-size:3.2rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+main {
+  margin-top: 6.2rem;
+  display: grid;
+  grid-template-columns:repeat(3, 370px);
+  row-gap: 4.8rem;
+  column-gap: 6rem;
+}
+
+.card {
+  border-radius: .8rem;
+  border: .2rem solid #323238;
+  background:  #202024;
+
+  overflow: hidden;  /* Imagem fica dentro da caixa */
+}
+
+.card h2 {
+  color:  #E1E1E6;
+  font-size:3.5rem;
+  font-weight: 900;
+  padding: 2.4rem 3.2rem 0;
+}
+
+.card p {
+  color: #C4C4CC;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding:2.4rem 3.2rem 3.2rem; 
+}
